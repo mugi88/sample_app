@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
   <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
 
@@ -12,3 +13,17 @@
     <%= yield %>
   </body>
 </html>
+=======
+    <title><%= full_title(yield(:title)) %></title>
+    <%= render 'layouts/rails_default' %>
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+    <%= render 'layouts/header' %>
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
+  </body>
+</html>
+>>>>>>> Finish layout and routes

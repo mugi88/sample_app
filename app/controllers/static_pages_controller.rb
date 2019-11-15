@@ -7,4 +7,11 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+<<<<<<< HEAD
+=======
+
+  def contact
+  end
+  
+>>>>>>> Finish layout and routes
 end

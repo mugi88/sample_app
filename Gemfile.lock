@@ -40,7 +40,16 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (8.0.0)
+<<<<<<< HEAD
     bindex (0.8.1)
+=======
+    autoprefixer-rails (9.7.1)
+      execjs
+    bindex (0.8.1)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+>>>>>>> Finish layout and routes
     builder (3.2.3)
     byebug (9.0.6)
     coderay (1.1.2)
@@ -197,6 +206,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
+=======
+  bootstrap-sass (= 3.3.7)
+>>>>>>> Finish layout and routes
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
   guard (= 2.13.0)
@@ -220,4 +233,8 @@ DEPENDENCIES
   web-console (= 3.5.1)
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.17.2
+=======
+   1.17.3
+>>>>>>> Finish layout and routes
